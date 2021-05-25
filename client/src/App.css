@@ -276,7 +276,7 @@ img {
 
 .form input[type="submit"],
 button {
-/*   width: 100%; */
+  width: 100%;
   font-weight: 1000;
   font: inherit;
 }
