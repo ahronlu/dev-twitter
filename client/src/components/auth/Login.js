@@ -4,6 +4,11 @@ import { useDispatch, useSelector } from 'react-redux';
 import { ReactComponent as Bird } from '../../Bird.svg';
 import { login } from '../../actions/auth';
 
+function validateEmail(email) {
+    const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+}
+
 const Login = () => {
   const dispatch = useDispatch();
 
@@ -21,6 +26,8 @@ const Login = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
+    if(!validateEmail(email)) return alert("Please enter a valid email address");
+    if(password.length < 6 ) return alert("Please enter a password with at least 6 characters");
     dispatch(login(email, password));
   };
 
