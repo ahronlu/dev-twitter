@@ -438,6 +438,11 @@ svg.bird {
     width: 100vw;
   }
   
+  .landing .buttons .btn {
+    margin-top: 2vw;
+    width: 100%;
+  }
+  
   .user-name {
     display: none;
   }
