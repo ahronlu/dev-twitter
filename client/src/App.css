@@ -433,6 +433,10 @@ svg.bird {
   .landing .left {
     display: none;
   }
+  
+  .landing .right {
+    width: 100vw;
+  }
 }
 
 /* Profiles Page */
