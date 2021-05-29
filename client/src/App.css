@@ -429,6 +429,12 @@ svg.bird {
   width: 30vw;
 }
 
+@media (max-width: 767px) {
+  .landing .left {
+    display: none;
+  }
+}
+
 /* Profiles Page */
 .profile {
   display: grid;
