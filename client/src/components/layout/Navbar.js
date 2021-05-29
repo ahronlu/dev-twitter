@@ -42,7 +42,7 @@ const Navbar = () => {
       </h1>
       <Fragment>{authLinks}</Fragment>
       {user ? 
-      <div style={{display: 'flex', alignItems: 'center', flexDirection: 'row-reverse'}}>{user.name}<img style={{width: "2vw", borderRadius: "1vw"}} src={user.avatar} alt={user.name}/></div>
+      <div style={{display: 'flex', alignItems: 'center', flexDirection: 'row-reverse'}}><span class="user-name">{user.name}</span><img style={{width: "2vw", borderRadius: "1vw"}} src={user.avatar} alt={user.name}/></div>
       : null}
     </nav>
   );
