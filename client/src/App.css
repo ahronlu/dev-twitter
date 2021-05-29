@@ -441,6 +441,10 @@ svg.bird {
   .user-name {
     display: none;
   }
+  
+  .Login {
+    width: 80vw;
+  }
 }
 
 /* Profiles Page */
