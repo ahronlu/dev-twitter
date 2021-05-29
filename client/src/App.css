@@ -429,29 +429,6 @@ svg.bird {
   width: 30vw;
 }
 
-@media (max-width: 767px) {
-  .landing .left {
-    display: none;
-  }
-  
-  .landing .right {
-    width: 100vw;
-  }
-  
-  .landing .buttons .btn {
-    margin-top: 2vw;
-    width: 100%;
-  }
-  
-  .user-name {
-    display: none;
-  }
-  
-  .Login {
-    width: 80vw;
-  }
-}
-
 /* Profiles Page */
 .profile {
   display: grid;
@@ -593,6 +570,31 @@ svg.bird {
 
 /* Mobile Styles */
 @media (max-width: 700px) {
+  .navbar a svg {
+    width: 1rem;
+  }
+  
+  .landing .left {
+    display: none;
+  }
+  
+  .landing .right {
+    width: 100vw;
+  }
+  
+  .landing .buttons .btn {
+    margin-top: 2vw;
+    width: 100%;
+  }
+  
+  .user-name {
+    display: none;
+  }
+  
+  .Login {
+    width: 80vw;
+  }
+  
   .container {
     margin-top: 8rem;
   }
@@ -626,7 +628,7 @@ svg.bird {
   }
 
   .navbar h1 {
-    margin-bottom: 1rem;
+/*     margin-bottom: 1rem; */
   }
 
   .navbar .welcome {
