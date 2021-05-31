@@ -16,11 +16,11 @@ const Navbar = () => {
         <Link to="/profiles">Developers</Link>
       </li>
       <li>
-        <Link to="/posts">Posts</Link>
+        <Link to="/home">Home</Link>
       </li>
       <li>
-        <Link to="/home">
-          <span className="hide-sm">Home</span>
+        <Link to="/profile">
+          <span className="hide-sm">Profile</span>
         </Link>
       </li>
       <li>
