@@ -18,10 +18,9 @@ const Dashboard = () => {
 
   return (
     <Fragment>
-      <h1 className="large text-primary">Dashboard</h1>
-      <p className="lead">
-        <i className="fas fa-user" /> Welcome {user && user.name}
-      </p>
+      <h1 className="lead">
+        {user && user.name}
+      </h1>
       {profile !== null ? (
         <Fragment>
           <HomeActions />
