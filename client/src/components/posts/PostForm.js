@@ -20,7 +20,7 @@ const PostForm = () => {
         <textarea
           name="text"
           cols="30"
-          rows="5"
+          rows="1"
           placeholder="What's happening?"
           value={text}
           onChange={(e) => setText(e.target.value)}
