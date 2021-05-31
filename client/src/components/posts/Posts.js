@@ -15,10 +15,7 @@ const Posts = () => {
 
   return (
     <Fragment>
-      <h1 className="large text-primary">Posts</h1>
-      <p className="lead">
-        <i className="fas fa-user" /> Welcome to the community
-      </p>
+      <h1 className="large text-primary">Home</h1>
       <PostForm />
       <div className="posts">
         {posts.map((post) => (
