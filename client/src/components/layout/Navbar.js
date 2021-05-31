@@ -13,12 +13,16 @@ const Navbar = () => {
   const authLinks = (
     <ul>
       <li>
-        <i className="fas fa-users" />{' '}
-        <Link to="/profiles">Developers</Link>
+        <Link to="/profiles">
+          <i className="fas fa-users" />{' '}
+          <span className="hide-sm">Developers</span>
+        </Link>
       </li>
       <li>
-        <i className="fas fa-home" />{' '}
-        <Link to="/home">Home</Link>
+        <Link to="/home">
+          <i className="fas fa-home" />{' '}
+          <span className="hide-sm">Home</span>
+        </Link>
       </li>
       <li>
         <Link to="/profile">
