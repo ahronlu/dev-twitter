@@ -13,6 +13,7 @@ const Navbar = () => {
   const authLinks = (
     <ul>
       <li>
+        <i className="fas fa-users" />{' '}
         <Link to="/profiles">Developers</Link>
       </li>
       <li>
