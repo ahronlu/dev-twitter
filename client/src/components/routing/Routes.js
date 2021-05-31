@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import Signup from '../auth/Signup';
 import Login from '../auth/Login';
 import Alert from '../layout/Alert';
-import Home from '../Home/Home';
+import Home from '../Home/Profile';
 import ProfileForm from '../profile-forms/ProfileForm';
 import AddExperience from '../profile-forms/AddExperience';
 import AddEducation from '../profile-forms/AddEducation';
