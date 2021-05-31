@@ -23,12 +23,12 @@ const Routes = props => {
         <Route exact path="/login" component={Login} />
         <Route exact path="/profiles" component={Profiles} />
         <Route exact path="/profile/:id" component={Profile} />
-        <PrivateRoute exact path="/home" component={Home} />
+        <PrivateRoute exact path="/dashboard" component={Home} />
         <PrivateRoute exact path="/create-profile" component={ProfileForm} />
         <PrivateRoute exact path="/edit-profile" component={ProfileForm} />
         <PrivateRoute exact path="/add-experience" component={AddExperience} />
         <PrivateRoute exact path="/add-education" component={AddEducation} />
-        <PrivateRoute exact path="/posts" component={Posts} />
+        <PrivateRoute exact path="/home" component={Posts} />
         <PrivateRoute exact path="/posts/:id" component={Post} />
         <Route component={NotFound} />
       </Switch>
