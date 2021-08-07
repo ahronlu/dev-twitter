@@ -353,6 +353,8 @@ button {
   display: none;
   position: absolute;
   left: 1rem;
+  background-color: #fff;
+  border-radius: 5px;
 }
 
 .navbar .dropdown-menu.open {
