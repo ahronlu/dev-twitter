@@ -14,7 +14,7 @@ const Navbar = () => {
   const authLinks = (
     <ul>
       <li>
-        <Link to="/home">
+        <Link to="/home" style={{ marginRight: ".5em" }}>
           <i className="fas fa-home mr-1" style={{ marginRight: ".5em" }} />{" "}
           <span className="hide-sm">Home</span>
         </Link>
