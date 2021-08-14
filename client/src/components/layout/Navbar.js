@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import { Link, useHistory, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../../actions/auth";
 
@@ -8,7 +8,7 @@ const Navbar = () => {
   const dispatch = useDispatch();
   const { pathname } = useLocation();
 
-  const { isAuthenticated, user } = useSelector((state) => state.auth);
+  const { user } = useSelector((state) => state.auth);
   console.log(user);
 
   const authLinks = (
