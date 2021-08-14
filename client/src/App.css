@@ -345,11 +345,6 @@ button {
   margin: 0 0.25rem;
 }
 
-.navbar svg,
-.navbar i {
-  margin-right: .5em;
-}
-
 .navbar .dropdown {
   position: relative;
 }
@@ -738,6 +733,10 @@ svg.bird {
   .post button {
     padding: 0.3rem 0.4rem;
   }
+}
+
+span[role="alert"] {
+  color: var(--danger-color);
 }
 
 .form input[type="submit"]:disabled,
